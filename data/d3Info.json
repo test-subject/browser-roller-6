@@ -1,0 +1,707 @@
+[
+  {
+    "name": "d3-array",
+    "version": "1.2.0",
+    "exportSymbols": [
+      "bisect",
+      "bisectRight",
+      "bisectLeft",
+      "ascending",
+      "bisector",
+      "cross",
+      "descending",
+      "deviation",
+      "extent",
+      "histogram",
+      "thresholdFreedmanDiaconis",
+      "thresholdScott",
+      "thresholdSturges",
+      "max",
+      "mean",
+      "median",
+      "merge",
+      "min",
+      "pairs",
+      "permute",
+      "quantile",
+      "range",
+      "scan",
+      "shuffle",
+      "sum",
+      "ticks",
+      "tickIncrement",
+      "tickStep",
+      "transpose",
+      "variance",
+      "zip"
+    ]
+  },
+  {
+    "name": "d3-axis",
+    "version": "1.0.6",
+    "exportSymbols": [
+      "axisTop",
+      "axisRight",
+      "axisBottom",
+      "axisLeft"
+    ]
+  },
+  {
+    "name": "d3-brush",
+    "version": "1.0.4",
+    "exportSymbols": [
+      "brush",
+      "brushX",
+      "brushY",
+      "brushSelection"
+    ],
+    "dependencies": {
+      "d3-dispatch": "1",
+      "d3-drag": "1",
+      "d3-interpolate": "1",
+      "d3-selection": "1",
+      "d3-transition": "1"
+    }
+  },
+  {
+    "name": "d3-chord",
+    "version": "1.0.4",
+    "exportSymbols": [
+      "chord",
+      "ribbon"
+    ],
+    "dependencies": {
+      "d3-array": "1",
+      "d3-path": "1"
+    }
+  },
+  {
+    "name": "d3-collection",
+    "version": "1.0.3",
+    "exportSymbols": [
+      "nest",
+      "set",
+      "map",
+      "keys",
+      "values",
+      "entries"
+    ]
+  },
+  {
+    "name": "d3-color",
+    "version": "1.0.3",
+    "exportSymbols": [
+      "color",
+      "rgb",
+      "hsl",
+      "lab",
+      "hcl",
+      "cubehelix"
+    ]
+  },
+  {
+    "name": "d3-dispatch",
+    "version": "1.0.3",
+    "exportSymbols": [
+      "dispatch"
+    ]
+  },
+  {
+    "name": "d3-drag",
+    "version": "1.0.4",
+    "exportSymbols": [
+      "drag",
+      "dragDisable",
+      "dragEnable"
+    ],
+    "dependencies": {
+      "d3-dispatch": "1",
+      "d3-selection": "1"
+    }
+  },
+  {
+    "name": "d3-dsv",
+    "version": "1.0.5",
+    "exportSymbols": [
+      "dsvFormat",
+      "csvParse",
+      "csvParseRows",
+      "csvFormat",
+      "csvFormatRows",
+      "tsvParse",
+      "tsvParseRows",
+      "tsvFormat",
+      "tsvFormatRows"
+    ],
+    "dependencies": {
+      "commander": "2",
+      "iconv-lite": "0.4",
+      "rw": "1"
+    }
+  },
+  {
+    "name": "d3-ease",
+    "version": "1.0.3",
+    "exportSymbols": [
+      "easeLinear",
+      "easeQuad",
+      "easeQuadIn",
+      "easeQuadOut",
+      "easeQuadInOut",
+      "easeCubic",
+      "easeCubicIn",
+      "easeCubicOut",
+      "easeCubicInOut",
+      "easePoly",
+      "easePolyIn",
+      "easePolyOut",
+      "easePolyInOut",
+      "easeSin",
+      "easeSinIn",
+      "easeSinOut",
+      "easeSinInOut",
+      "easeExp",
+      "easeExpIn",
+      "easeExpOut",
+      "easeExpInOut",
+      "easeCircle",
+      "easeCircleIn",
+      "easeCircleOut",
+      "easeCircleInOut",
+      "easeBounce",
+      "easeBounceIn",
+      "easeBounceOut",
+      "easeBounceInOut",
+      "easeBack",
+      "easeBackIn",
+      "easeBackOut",
+      "easeBackInOut",
+      "easeElastic",
+      "easeElasticIn",
+      "easeElasticOut",
+      "easeElasticInOut"
+    ]
+  },
+  {
+    "name": "d3-force",
+    "version": "1.0.6",
+    "exportSymbols": [
+      "forceCenter",
+      "forceCollide",
+      "forceLink",
+      "forceManyBody",
+      "forceSimulation",
+      "forceX",
+      "forceY"
+    ],
+    "dependencies": {
+      "d3-collection": "1",
+      "d3-dispatch": "1",
+      "d3-quadtree": "1",
+      "d3-timer": "1"
+    }
+  },
+  {
+    "name": "d3-format",
+    "version": "1.2.0",
+    "exportSymbols": [
+      "formatDefaultLocale",
+      "format",
+      "formatPrefix",
+      "formatLocale",
+      "formatSpecifier",
+      "precisionFixed",
+      "precisionPrefix",
+      "precisionRound"
+    ]
+  },
+  {
+    "name": "d3-geo",
+    "version": "1.6.3",
+    "exportSymbols": [
+      "geoArea",
+      "geoBounds",
+      "geoCentroid",
+      "geoCircle",
+      "geoClipExtent",
+      "geoContains",
+      "geoDistance",
+      "geoGraticule",
+      "geoGraticule10",
+      "geoInterpolate",
+      "geoLength",
+      "geoPath",
+      "geoAlbers",
+      "geoAlbersUsa",
+      "geoAzimuthalEqualArea",
+      "geoAzimuthalEqualAreaRaw",
+      "geoAzimuthalEquidistant",
+      "geoAzimuthalEquidistantRaw",
+      "geoConicConformal",
+      "geoConicConformalRaw",
+      "geoConicEqualArea",
+      "geoConicEqualAreaRaw",
+      "geoConicEquidistant",
+      "geoConicEquidistantRaw",
+      "geoEquirectangular",
+      "geoEquirectangularRaw",
+      "geoGnomonic",
+      "geoGnomonicRaw",
+      "geoIdentity",
+      "geoProjection",
+      "geoProjectionMutator",
+      "geoMercator",
+      "geoMercatorRaw",
+      "geoOrthographic",
+      "geoOrthographicRaw",
+      "geoStereographic",
+      "geoStereographicRaw",
+      "geoTransverseMercator",
+      "geoTransverseMercatorRaw",
+      "geoRotation",
+      "geoStream",
+      "geoTransform"
+    ],
+    "dependencies": {
+      "d3-array": "1"
+    }
+  },
+  {
+    "name": "d3-hierarchy",
+    "version": "1.1.4",
+    "exportSymbols": [
+      "cluster",
+      "hierarchy",
+      "pack",
+      "packSiblings",
+      "packEnclose",
+      "partition",
+      "stratify",
+      "tree",
+      "treemap",
+      "treemapBinary",
+      "treemapDice",
+      "treemapSlice",
+      "treemapSliceDice",
+      "treemapSquarify",
+      "treemapResquarify"
+    ]
+  },
+  {
+    "name": "d3-interpolate",
+    "version": "1.1.4",
+    "exportSymbols": [
+      "interpolate",
+      "interpolateArray",
+      "interpolateBasis",
+      "interpolateBasisClosed",
+      "interpolateDate",
+      "interpolateNumber",
+      "interpolateObject",
+      "interpolateRound",
+      "interpolateString",
+      "interpolateTransformCss",
+      "interpolateTransformSvg",
+      "interpolateZoom",
+      "interpolateRgb",
+      "interpolateRgbBasis",
+      "interpolateRgbBasisClosed",
+      "interpolateHsl",
+      "interpolateHslLong",
+      "interpolateLab",
+      "interpolateHcl",
+      "interpolateHclLong",
+      "interpolateCubehelix",
+      "interpolateCubehelixLong",
+      "quantize"
+    ],
+    "dependencies": {
+      "d3-color": "1"
+    }
+  },
+  {
+    "name": "d3-path",
+    "version": "1.0.5",
+    "exportSymbols": [
+      "path"
+    ]
+  },
+  {
+    "name": "d3-polygon",
+    "version": "1.0.3",
+    "exportSymbols": [
+      "polygonArea",
+      "polygonCentroid",
+      "polygonHull",
+      "polygonContains",
+      "polygonLength"
+    ]
+  },
+  {
+    "name": "d3-quadtree",
+    "version": "1.0.3",
+    "exportSymbols": [
+      "quadtree"
+    ]
+  },
+  {
+    "name": "d3-queue",
+    "version": "3.0.5",
+    "exportSymbols": [
+      "queue"
+    ]
+  },
+  {
+    "name": "d3-random",
+    "version": "1.0.3",
+    "exportSymbols": [
+      "randomUniform",
+      "randomNormal",
+      "randomLogNormal",
+      "randomBates",
+      "randomIrwinHall",
+      "randomExponential"
+    ]
+  },
+  {
+    "name": "d3-request",
+    "version": "1.0.5",
+    "exportSymbols": [
+      "request",
+      "html",
+      "json",
+      "text",
+      "xml",
+      "csv",
+      "tsv"
+    ],
+    "dependencies": {
+      "d3-collection": "1",
+      "d3-dispatch": "1",
+      "d3-dsv": "1",
+      "xmlhttprequest": "1"
+    }
+  },
+  {
+    "name": "d3-scale",
+    "version": "1.0.5",
+    "exportSymbols": [
+      "scaleBand",
+      "scalePoint",
+      "scaleIdentity",
+      "scaleLinear",
+      "scaleLog",
+      "scaleOrdinal",
+      "scaleImplicit",
+      "scalePow",
+      "scaleSqrt",
+      "scaleQuantile",
+      "scaleQuantize",
+      "scaleThreshold",
+      "scaleTime",
+      "scaleUtc",
+      "schemeCategory10",
+      "schemeCategory20b",
+      "schemeCategory20c",
+      "schemeCategory20",
+      "interpolateCubehelixDefault",
+      "interpolateRainbow",
+      "interpolateWarm",
+      "interpolateCool",
+      "interpolateViridis",
+      "interpolateMagma",
+      "interpolateInferno",
+      "interpolatePlasma",
+      "scaleSequential"
+    ],
+    "dependencies": {
+      "d3-array": "1",
+      "d3-collection": "1",
+      "d3-color": "1",
+      "d3-format": "1",
+      "d3-interpolate": "1",
+      "d3-time": "1",
+      "d3-time-format": "2"
+    }
+  },
+  {
+    "name": "d3-selection",
+    "version": "1.0.5",
+    "exportSymbols": [
+      "creator",
+      "local",
+      "matcher",
+      "mouse",
+      "namespace",
+      "namespaces",
+      "select",
+      "selectAll",
+      "selection",
+      "selector",
+      "selectorAll",
+      "touch",
+      "touches",
+      "window",
+      "event",
+      "customEvent"
+    ]
+  },
+  {
+    "name": "d3-shape",
+    "version": "1.0.6",
+    "exportSymbols": [
+      "arc",
+      "area",
+      "line",
+      "pie",
+      "radialArea",
+      "radialLine",
+      "symbol",
+      "symbols",
+      "symbolCircle",
+      "symbolCross",
+      "symbolDiamond",
+      "symbolSquare",
+      "symbolStar",
+      "symbolTriangle",
+      "symbolWye",
+      "curveBasisClosed",
+      "curveBasisOpen",
+      "curveBasis",
+      "curveBundle",
+      "curveCardinalClosed",
+      "curveCardinalOpen",
+      "curveCardinal",
+      "curveCatmullRomClosed",
+      "curveCatmullRomOpen",
+      "curveCatmullRom",
+      "curveLinearClosed",
+      "curveLinear",
+      "curveMonotoneX",
+      "curveMonotoneY",
+      "curveNatural",
+      "curveStep",
+      "curveStepAfter",
+      "curveStepBefore",
+      "stack",
+      "stackOffsetExpand",
+      "stackOffsetNone",
+      "stackOffsetSilhouette",
+      "stackOffsetWiggle",
+      "stackOrderAscending",
+      "stackOrderDescending",
+      "stackOrderInsideOut",
+      "stackOrderNone",
+      "stackOrderReverse"
+    ],
+    "dependencies": {
+      "d3-path": "1"
+    }
+  },
+  {
+    "name": "d3-time",
+    "version": "1.0.6",
+    "exportSymbols": [
+      "timeInterval",
+      "timeMillisecond",
+      "timeMilliseconds",
+      "utcMillisecond",
+      "utcMilliseconds",
+      "timeSecond",
+      "timeSeconds",
+      "utcSecond",
+      "utcSeconds",
+      "timeMinute",
+      "timeMinutes",
+      "timeHour",
+      "timeHours",
+      "timeDay",
+      "timeDays",
+      "timeWeek",
+      "timeWeeks",
+      "timeSunday",
+      "timeSundays",
+      "timeMonday",
+      "timeMondays",
+      "timeTuesday",
+      "timeTuesdays",
+      "timeWednesday",
+      "timeWednesdays",
+      "timeThursday",
+      "timeThursdays",
+      "timeFriday",
+      "timeFridays",
+      "timeSaturday",
+      "timeSaturdays",
+      "timeMonth",
+      "timeMonths",
+      "timeYear",
+      "timeYears",
+      "utcMinute",
+      "utcMinutes",
+      "utcHour",
+      "utcHours",
+      "utcDay",
+      "utcDays",
+      "utcWeek",
+      "utcWeeks",
+      "utcSunday",
+      "utcSundays",
+      "utcMonday",
+      "utcMondays",
+      "utcTuesday",
+      "utcTuesdays",
+      "utcWednesday",
+      "utcWednesdays",
+      "utcThursday",
+      "utcThursdays",
+      "utcFriday",
+      "utcFridays",
+      "utcSaturday",
+      "utcSaturdays",
+      "utcMonth",
+      "utcMonths",
+      "utcYear",
+      "utcYears"
+    ]
+  },
+  {
+    "name": "d3-time-format",
+    "version": "2.0.5",
+    "exportSymbols": [
+      "timeFormatDefaultLocale",
+      "timeFormat",
+      "timeParse",
+      "utcFormat",
+      "utcParse",
+      "timeFormatLocale",
+      "isoFormat",
+      "isoParse"
+    ],
+    "dependencies": {
+      "d3-time": "1"
+    }
+  },
+  {
+    "name": "d3-timer",
+    "version": "1.0.5",
+    "exportSymbols": [
+      "now",
+      "timer",
+      "timerFlush",
+      "timeout",
+      "interval"
+    ]
+  },
+  {
+    "name": "d3-transition",
+    "version": "1.0.4",
+    "exportSymbols": [
+      "transition",
+      "active",
+      "interrupt"
+    ],
+    "dependencies": {
+      "d3-color": "1",
+      "d3-dispatch": "1",
+      "d3-ease": "1",
+      "d3-interpolate": "1",
+      "d3-selection": "1",
+      "d3-timer": "1"
+    }
+  },
+  {
+    "name": "d3-voronoi",
+    "version": "1.1.2",
+    "exportSymbols": [
+      "voronoi"
+    ]
+  },
+  {
+    "name": "d3-zoom",
+    "version": "1.1.4",
+    "exportSymbols": [
+      "zoom",
+      "zoomTransform",
+      "zoomIdentity"
+    ],
+    "dependencies": {
+      "d3-dispatch": "1",
+      "d3-drag": "1",
+      "d3-interpolate": "1",
+      "d3-selection": "1",
+      "d3-transition": "1"
+    }
+  },
+  {
+    "name": "d3-scale-chromatic",
+    "version": "1.1.1",
+    "exportSymbols": [
+      "schemeAccent",
+      "schemeDark2",
+      "schemePaired",
+      "schemePastel1",
+      "schemePastel2",
+      "schemeSet1",
+      "schemeSet2",
+      "schemeSet3",
+      "interpolateBrBG",
+      "schemeBrBG",
+      "interpolatePRGn",
+      "schemePRGn",
+      "interpolatePiYG",
+      "schemePiYG",
+      "interpolatePuOr",
+      "schemePuOr",
+      "interpolateRdBu",
+      "schemeRdBu",
+      "interpolateRdGy",
+      "schemeRdGy",
+      "interpolateRdYlBu",
+      "schemeRdYlBu",
+      "interpolateRdYlGn",
+      "schemeRdYlGn",
+      "interpolateSpectral",
+      "schemeSpectral",
+      "interpolateBuGn",
+      "schemeBuGn",
+      "interpolateBuPu",
+      "schemeBuPu",
+      "interpolateGnBu",
+      "schemeGnBu",
+      "interpolateOrRd",
+      "schemeOrRd",
+      "interpolatePuBuGn",
+      "schemePuBuGn",
+      "interpolatePuBu",
+      "schemePuBu",
+      "interpolatePuRd",
+      "schemePuRd",
+      "interpolateRdPu",
+      "schemeRdPu",
+      "interpolateYlGnBu",
+      "schemeYlGnBu",
+      "interpolateYlGn",
+      "schemeYlGn",
+      "interpolateYlOrBr",
+      "schemeYlOrBr",
+      "interpolateYlOrRd",
+      "schemeYlOrRd",
+      "interpolateBlues",
+      "schemeBlues",
+      "interpolateGreens",
+      "schemeGreens",
+      "interpolateGreys",
+      "schemeGreys",
+      "interpolatePurples",
+      "schemePurples",
+      "interpolateReds",
+      "schemeReds",
+      "interpolateOranges",
+      "schemeOranges"
+    ],
+    "dependencies": {
+      "d3-interpolate": "1"
+    }
+  }
+]
